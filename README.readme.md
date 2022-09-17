@@ -4,7 +4,7 @@
 #### API test validate for products in cart
 
 
-## StoreController
+## Controller
 
 ### getId function:
 
@@ -21,7 +21,7 @@ The function call to the method getId() in service.
 The function call to method htmlToJson() in service.
 
 
-## StoreService
+## Service
 
 ### getId function:
 
