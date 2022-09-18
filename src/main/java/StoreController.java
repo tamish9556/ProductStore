@@ -1,6 +1,7 @@
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @CrossOrigin
@@ -10,8 +11,8 @@ public class StoreController {
     @Autowired
     private StoreService service;
 
-    @GetMapping("/id")
-    public String getId(@RequestParam String path){
+    @GetMapping("/{id}")
+    public String getId(@PathVariable String path){
         return service.getId(path);
     }
 
