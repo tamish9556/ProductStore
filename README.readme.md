@@ -1,7 +1,15 @@
 # Product Store
 
 
-#### API test validate for products in cart
+### API test validate for products in cart
+
+#### 1. On the product page we select Inspect.
+#### 2. On the html page we select the match div and copy element.
+#### 3. We create html page as here: "../ProductStore/moreInfo/main.html".
+#### 4. Parsing from html file to temporary json object.
+#### 5. The data save as json file.
+#### 6. Aggregation the data to unified java object model.
+#### 7. Test and validate on the object.
 
 
 ## Controller
