@@ -3,6 +3,7 @@
 
 ### API test validate for products in cart
 
+#### For understanding the code, images are attached in the folder moreInfo.
 #### 1. On the product page we select Inspect.
 #### 2. On the html page we select the match div and copy element.
 #### 3. We create html page as here: "../ProductStore/moreInfo/main.html".

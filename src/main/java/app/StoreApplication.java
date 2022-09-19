@@ -1,21 +1,14 @@
 package app;
 
 import com.StoreModel;
-import com.StoreService;
-import com.google.gson.JsonObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -63,7 +56,6 @@ public class StoreApplication {
     }
     public static void main(String[] args) {
         SpringApplication.run(StoreApplication.class, args);
-//        C:/Users/Tami/Desktop/Store/ProductStore/moreInfo/main.html
         System.out.println(htmlToJson("../ProductStore/moreInfo/main.html"));
     }
 }
